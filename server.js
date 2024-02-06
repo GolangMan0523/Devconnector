@@ -26,6 +26,7 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
+// This line is changed for Jenkins test
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
